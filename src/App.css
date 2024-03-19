@@ -1,0 +1,77 @@
+.del {
+
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+    float: right;
+    padding: 8px;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.del:hover {
+
+   
+    border: 1px solid;
+
+}
+
+
+
+.person-container, .person-info-container {
+
+    flex: 1;
+}
+
+.avatar-container {
+
+    width: 30%;
+    text-align: center;
+}
+
+.avatar-container img {
+
+    width: 100%;
+}
+
+
+.contact-container {
+
+    display: none;
+}
+
+.contact-container.visible {
+
+    display: block;
+}
+
+a.active::before {
+
+    content: "> ";
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+
+}
+
+.flag {
+
+    width: 26px;
+}
+
+.sayac-buttons button {
+
+    margin: 8px;
+}
+
+.user-login-container {
+
+    gap: 5px;
+    align-items: center;
+}
+
+.user-login-container .avatar-container img {
+
+    width: 35px;
+    border: 1px solid #2f2c2c;
+    border-radius: 50%;
+}
